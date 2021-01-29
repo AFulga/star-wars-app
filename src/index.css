@@ -5,9 +5,17 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+  background-image: url('./assests/107763.jpg');
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.btn-cat:hover {
+  color: #fff;
+  background-color: #e15021 !important;
+  border-color: #e15021 !important;
 }
