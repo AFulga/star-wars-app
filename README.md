@@ -1,6 +1,30 @@
-# Getting Started with Create React App
+# Star Wars App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+_Creator: Aurelian Fulga_
+
+## Description
+
+This project allow you to browse through different categories from Star Wars universe, like Starships or Species, check the items that belong to the category and see more detailed information about an item.
+
+The project can be found [here](https://github.com/AFulga/star-wars-app)
+
+## Used Technologies
+
+### [react](https://reactjs.org/docs/hello-world.html)
+
+For UI
+
+### [redux](https://redux.js.org/)
+
+For state mamagement
+
+### [axios](https://www.axios.com/)
+
+For data fetching
+
+### [SWAPI](http://swapi.py4e.com/)
+
+Star Wars API used to fecth the smaple data used in this project
 
 ## Available Scripts
 

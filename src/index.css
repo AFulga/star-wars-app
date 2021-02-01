@@ -40,12 +40,6 @@ ol.breadcrumb li::first-letter {
 }
 
 /***** CategoryCard *****/
-/* .btn-cat:hover {
-  color: #fff;
-  background-color: #e15021 !important;
-  border-color: #e15021 !important;
-} */
-
 .cat-card .cat-title {
   background-color: rgba(0, 0, 0, 0.4);
 }

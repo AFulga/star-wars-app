@@ -16,6 +16,7 @@ const initialState = {
           { min: 31, max: 100 },
           { min: 101, max: Infinity, label: '> 100' },
         ],
+        unit: 'm',
       },
     },
     {
@@ -30,6 +31,7 @@ const initialState = {
           { min: 101, max: 200 },
           { min: 201, max: 300 },
         ],
+        unit: 'cm',
       },
     },
   ],

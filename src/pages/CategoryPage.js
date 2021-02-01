@@ -16,7 +16,6 @@ const CategoryPage = () => {
   const params = useParams();
   const [state, setState] = useState({
     status: STATUS.IDLE,
-    data: null,
     error: null,
   });
   const [currentPage, setCurrentPage] = useState(1);
@@ -49,12 +48,7 @@ const CategoryPage = () => {
       const { min, max } = filterBands[filterIndex];
       return val >= min && val <= max;
     });
-  console.log('cat.filter', cat.filter);
-  console.log(
-    'catItems',
-    cat.filter.keyName,
-    catItems.map((el) => el[cat.filter.keyName])
-  );
+
   useEffect(() => {
     const fetchData = (path, page = 1) => {
       setState((prev) => {
@@ -110,6 +104,7 @@ const CategoryPage = () => {
               filterBands={filterBands}
               setFilterindex={setFilterindex}
               filterIndex={filterIndex}
+              unit={cat.filter.unit}
             />
           </Col>
         </Row>
