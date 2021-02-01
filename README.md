@@ -24,7 +24,7 @@ For data fetching
 
 ### [SWAPI](http://swapi.py4e.com/)
 
-Star Wars API used to fecth the smaple data used in this project
+Star Wars API used to fetch the sample data used in this project
 
 ## Available Scripts
 
